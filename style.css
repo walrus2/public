@@ -1,0 +1,47 @@
+<style type="text/css">
+			/* style our heading tag; this is how you comment CSS */ 
+			/* the multiple headings below apply the rule to headings 1-5 */
+			h1, h2, h3, h4, h5, h6 {
+				font-family: 'san francisco', 'times new roman', serif;
+				color: #505050;
+				font-weight: bold; 
+
+			}
+
+			p, li {
+				font-family: 'san francisco', 'helvetica neue', helvetica, sans-serif ;
+				color: #272727;
+				font-size: 14px;
+
+			}
+
+			li {font-size: 12px; }
+			/*last item is a class that was specified to make something pink italic, when applied."learn to code" */
+			/*	.last-item {
+					color: pink;
+					font-style: italic;
+				}
+				/* this signifies that the attribute has to be attached to the list item to have the rule applied  - due to the ordering here, it will overwrite the previous command above*/
+				/*li.last-item {
+					color:	blue;
+					font-size: 18px;
+				}
+				/* this signifies that the attribute has to be a part of the list items (nested) to have this rule applied to it "feed the baby"*/
+				/*li .last-item {
+					color: red;
+					font-size: 10px; 
+					
+				}
+
+			}*/
+			.container {
+				display: block;
+				width: 500px;
+				margin: auto;
+				margin-top: 50px;
+				border: 1px solid #505050;
+				padding: 10px;
+
+			}
+
+		</style>
